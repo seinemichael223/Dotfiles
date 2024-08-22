@@ -13,13 +13,13 @@ plugins=(
 )
 
 # Aliases
-alias ls='eza -1  --icons -a'
-alias ll='eza -1 --icons -alh'
+alias ls='eza -a'
+alias ll='eza -alh'
 alias yt-dlp-muzik='yt-dlp --extract-audio --audio-format mp3'
 alias yt='yt-dlp -f "bestvideo[ext=mp4][height=1080][fps=60]+bestaudio"'
 alias cv-pdf='libreoffice --headless --convert-to pdf'
 alias py='python'
-alias fnc='joshuto'
+alias f='joshuto'
 alias rs='rustc'
 alias vim='nvim'
 alias cat='bat'
@@ -38,3 +38,6 @@ source $ZSH/oh-my-zsh.sh
 eval "$(zoxide init zsh)"
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Created by `pipx` on 2024-08-19 14:05:16
+export PATH="$PATH:/home/ff223/.local/bin"
