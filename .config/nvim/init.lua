@@ -74,6 +74,12 @@ require('lazy').setup({
     },
     {
     'norcalli/nvim-colorizer.lua'
+    },
+    {
+        'sindrets/diffview.nvim'
+    },
+    {
+	'nvim-tree/nvim-web-devicons'
     }
 })
 
@@ -89,7 +95,7 @@ lsp_zero.on_attach(function(client, bufnr)
 end)
 
 
-lsp_zero.setup_servers({'cmake', 'clangd', 'jedi_language_server', 'java_language_server', 'tsserver', 'rust_analyzer', 'lua_ls'})
+lsp_zero.setup_servers({'cmake', 'clangd', 'jedi_language_server', 'java_language_server', 'ts_ls', 'rust_analyzer', 'lua_ls'})
 
 -- LSP Keybinds
 local cmp = require('cmp')
@@ -151,7 +157,7 @@ require('lualine').setup {
 -- Treessitter
 require'nvim-treesitter.configs'.setup {
   -- A list of parser names, or "all" (the five listed parsers should always be installed)
-  ensure_installed = { "c", "cpp", "python", "rust", "java", "javascript" },
+  ensure_installed = { "c", "cpp", "python", "rust", "java", "javascript", "html" },
 
   -- Install parsers synchronously (only applied to `ensure_installed`)
   sync_install = false,

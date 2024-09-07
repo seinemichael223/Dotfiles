@@ -2,7 +2,7 @@
   "layer": "top",
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["backlight", "pulseaudio","temperature", "network", "battery", "tray", "custom/power"],
+    "modules-right": ["backlight", "pulseaudio", "network", "battery", "tray", "custom/power"],
     "hyprland/workspaces": {
       "format": "{name}",
       "format": "{icon}",
@@ -30,9 +30,6 @@
         "default": ["", "", "󰕾", "󰕾", "󰕾", "", "", ""]
       },
       "scroll-step": 1,
-    },
-    "temperature": {
-        "format": " {temperatureC}°C",
     },
     "network": {
         "format-wifi": " {essid} ({signalStrength}%)",

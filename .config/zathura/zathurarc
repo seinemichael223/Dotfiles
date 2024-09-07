@@ -1,2 +1,4 @@
 include catppuccin-frappe
 map '\' recolor
+map j feedkeys "<C-Down>"
+map k feedkeys "<C-Up>"

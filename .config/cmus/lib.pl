@@ -62,13 +62,20 @@
 /home/ff223/NewKolle-03/Mix3/Muzik_TransferProtokol/『夏へのトンネル、さよならの出口』op The Tunnel to Summer, the Exit of Goodbyes - eill ｜ プレロマンス [y4wcwGnj7E8].mp3
 /home/ff223/NewKolle-03/Mix3/Muzik_TransferProtokol/【Tony Yan】暮日战歌「Punishing： Gray Raven OST - 络勾陈」 【パニシング：グレイレイヴン】Official [EMUgvaWBek4].mp3
 /home/ff223/NewKolle-03/Mix3/Muzik_TransferProtokol/嘆きの天使 [2ipO3y_SK90].mp3
+/home/ff223/NewKolle-03/Mix3/NewMix3/1-20. Believe Me.mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/Ad astra [-s0conum7-Q].mp3
+/home/ff223/NewKolle-03/Mix3/NewMix3/BUMP OF CHICKEN「Hello,world!」 [rOU4YiuaxAM].mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/Darling in the FranXX OP⧸Opening Full「KISS OF DEATH - Mika Nakashima x Hyde」[Kami Cover] [mzJqxT1UGho].mp3
+/home/ff223/NewKolle-03/Mix3/NewMix3/Dungeon Meshi Opening Full 『Sleep Walking Orchestra』 BUMP OF CHICKEN [NAc8LWXYgAs].mp3
+/home/ff223/NewKolle-03/Mix3/NewMix3/Full Moon Full Life [hWhgrA2dhrk].mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/Goddess Of Victory：NIKKE OST - TuNGSTen (feat. mizuki)┃Raon cover [wnIuxxRzofM].mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/IA - Imagination Forest (想像フォレスト) [mptnxQx9TaQ].mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/Kalafina - Magia [QwquipMpsiQ].mp3
+/home/ff223/NewKolle-03/Mix3/NewMix3/Little Witch Academia - Ending 1 Full ｜ ＂Hoshi wo Tadoreba＂ by Yuiko Ohara (Lyrics) [Cf4y8Ih-P58].mp3
+/home/ff223/NewKolle-03/Mix3/NewMix3/Little Witch Academia - Opening 2 Full ｜ ＂MIND CONDUCTOR＂ by YURiKA (Lyrics) [Tr9d2pDvk88].mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/Made in Abyss ＂Dawn of the Deep Soul＂『Forever Lost』 ｜ Myth & Roid [_vfr45SGyYE].mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/Mili - sustain++; ⧸ Ghost In The Shell： SAC_2045 Ending Theme [JHY0PYZXvfU].mp3
+/home/ff223/NewKolle-03/Mix3/NewMix3/Mobile Suit Gundam： The 08th MS Team OP Shining in the Storm ⧸ Arashi no Nakade de Kagayaite [URvaDE1PklU].mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/Persona 5 Royal - Ideal and the Real (Dual Mix) [LlAKNAiNDQo].mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/Re： I Am [ptwH69_0EAo].mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/Showdown - Jose Pavli ｜ Project Wingman Soundtrack (2020) [xgcap-5IBsY].mp3
@@ -76,12 +83,15 @@
 /home/ff223/NewKolle-03/Mix3/NewMix3/TRACER [OMbCTKHXHAs].mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/The Survivor, The Winner [8RcYIyEgvvY].mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/The Witch From Mercury [we1q-unjRq0].mp3
+/home/ff223/NewKolle-03/Mix3/NewMix3/Tielle - BLESSLESS ｜ Official Music Video [xLUQ7DzjC0k].mp3
+/home/ff223/NewKolle-03/Mix3/NewMix3/YURiKA「Shiny Ray」ミュージックビデオ [5mU66mU_Pw8].mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/[Arknights] Who is Real BGM - duskdragon [4MTjw3CSEw4].mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/[Persona 3 FES] 12 - Heartful Cry [C3emFUXbC5U].mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/oI - Hiroyuki Sawano ft.Mizuki [ih-bkcSyygE].mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/「パニシング：グレイレイヴン」GW特別テーマ曲「夏日の上」 [e-LpgXW20MM].mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/【東方Alternative Rock】 偶像と憧憬 「Hachimitsu-Lemon × Aftergrow」 [lsE516p-oTE].mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/アークナイツ BGM - Come Catastrophes or Wakes of Vultures Lobby Theme ｜ Arknights⧸明日方舟 BSW OST [VetG4ZtiVGQ].mp3
+/home/ff223/NewKolle-03/Mix3/NewMix3/ピノキオピー - ありふれたせかいせいふく feat. 初音ミク ⧸ Common World Domination [8Z3TbMBfDM0].mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/ラックライフ ⧸ 名前を呼ぶよ [Music Video]（TVアニメ『文豪ストレイドッグス』ED主題歌） [-g6MYL5lOZs].mp3
 /home/ff223/NewKolle-03/Mix3/Nightcore - Letter Song.mp3
 /home/ff223/NewKolle-03/Mix3/Nightcore - Osanana Blue.mp3
@@ -755,7 +765,7 @@
 /home/ff223/NewKolle-03/Mix3/Kyouran Hey Kids!!.mp3
 /home/ff223/NewKolle-03/Mix3/O2i3 - TSLove - osu!Music.mp3
 /home/ff223/NewKolle-03/Mix3/Official髭男dism - イエスタデイ［Official Video］.mp3
-/home/ff223/NewKolle-03/Mix3/Hoshi wo Tadoreba.mp3
+/home/ff223/NewKolle-03/Mix3/Hoshi wo Tadoreba (Instrumental).mp3
 /home/ff223/NewKolle-03/Mix3/y2mate.com - one_iii_notes_shadow_and_truth_acca_13_ku_kansatsu_ka_opening_SZCMSFrH10I_320kbps.mp3
 /home/ff223/NewKolle-03/Mix3/Wonder Drive.mp3
 /home/ff223/NewKolle-03/Mix3/Uraomote Fortune.mp3
