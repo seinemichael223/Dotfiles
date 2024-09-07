@@ -1,0 +1,19 @@
+import = [
+  "~/.config/alacritty/catppuccin-frappe.toml"
+]
+
+[window]
+startup_mode = "Windowed"
+title = "Alacritty"
+dynamic_title = true 
+decorations_theme_variant = "None"
+decorations = "Full"
+blur = true 
+padding = { x = 20, y = 20 }
+dynamic_padding = true
+
+[font]
+normal = { family = "FiraCode Nerd Font Mono", style = "Regular"}
+size = 12.0
+builtin_box_drawing = true
+
