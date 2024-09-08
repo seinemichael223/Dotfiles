@@ -65,6 +65,8 @@
 /home/ff223/NewKolle-03/Mix3/NewMix3/1-20. Believe Me.mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/Ad astra [-s0conum7-Q].mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/BUMP OF CHICKEN「Hello,world!」 [rOU4YiuaxAM].mp3
+/home/ff223/NewKolle-03/Mix3/NewMix3/Bravely Default - Baby Bird (Edea Lee's Theme)【Vocalized Version】 [1Rum6BxG1U4].mp3
+/home/ff223/NewKolle-03/Mix3/NewMix3/Chocolate Missile [j2FRjbvb60Y].mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/Darling in the FranXX OP⧸Opening Full「KISS OF DEATH - Mika Nakashima x Hyde」[Kami Cover] [mzJqxT1UGho].mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/Dungeon Meshi Opening Full 『Sleep Walking Orchestra』 BUMP OF CHICKEN [NAc8LWXYgAs].mp3
 /home/ff223/NewKolle-03/Mix3/NewMix3/Full Moon Full Life [hWhgrA2dhrk].mp3
