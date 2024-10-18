@@ -41,3 +41,5 @@ eval "$(zoxide init zsh)"
 
 # Created by `pipx` on 2024-08-19 14:05:16
 export PATH="$PATH:/home/ff223/.local/bin"
+alias ls='eza -a'
+alias ll='eza -alh'
