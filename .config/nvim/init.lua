@@ -157,7 +157,7 @@ require('lualine').setup {
 -- Treessitter
 require'nvim-treesitter.configs'.setup {
   -- A list of parser names, or "all" (the five listed parsers should always be installed)
-  ensure_installed = { "c", "cpp", "python", "rust", "java", "javascript", "html" },
+  ensure_installed = { "c", "cpp", "python", "rust", "java", "javascript", "html", "css" },
 
   -- Install parsers synchronously (only applied to `ensure_installed`)
   sync_install = false,

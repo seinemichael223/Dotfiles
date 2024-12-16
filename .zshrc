@@ -43,3 +43,12 @@ eval "$(zoxide init zsh)"
 export PATH="$PATH:/home/ff223/.local/bin"
 alias ls='eza -a'
 alias ll='eza -alh'
+
+cdx() {
+    if zoxide query "$1" > /dev/null 2>&1; then
+        cd "$(zoxide query "$1")" && ls
+    else
+        echo "Error: No match found for '$1'"
+    fi
+}
+
