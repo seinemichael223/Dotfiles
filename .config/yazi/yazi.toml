@@ -1,0 +1,35 @@
+[manager]
+show_hidden = true
+sort_by = "natural"
+
+[opener]
+play = [
+    { run = 'mpv "$@"', orphan = true, for = "unix" },
+]
+
+edit = [
+	{ run = 'nvim "$@"', block = true, for = "unix" },
+]
+
+open = [
+	{ run = 'xdg-open "$@"', desc = "Open" },
+	{ run = 'gwenview "$@"', desc = "Gwenview" },
+]
+
+pdff = [
+    { run = 'zathura "$@"', desc = "zathura", orphan = true, for = "unix" },
+]
+
+[open]
+rules = [
+    { name = "*/", use = [ "edit", "open", "reveal" ] },
+    { mime = "text/*", use = [ "edit", "reveal" ] },
+    { mime = "application/pdf", use = [ "pdff", "reveal" ] },
+    { mime = "{audio,video}/*", use = [ "play", "reveal" ] },
+    { mime = "image/*", use = [ "open", "reveal" ] },
+    { mime = "application/{,g}zip", use = [ "extract", "reveal" ] },
+]
+
+[confirm]
+trash = false
+delete = true

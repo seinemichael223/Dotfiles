@@ -1,0 +1,5 @@
+[plugin]
+deps = [{ use = "grappas/wl-clipboard", rev = "c4edc4f" }]
+
+[flavor]
+deps = [{ use = "yazi-rs/flavors:catppuccin-frappe", rev = "1a419b2" }]
