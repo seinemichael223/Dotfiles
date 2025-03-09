@@ -19,7 +19,7 @@ alias yt-dlp-muzik='yt-dlp --extract-audio --audio-format mp3'
 alias yt='yt-dlp -f "bestvideo[ext=mp4][height=1080][fps=60]+bestaudio"'
 alias cv-pdf='libreoffice --headless --convert-to pdf'
 alias py='python'
-alias f='joshuto'
+# alias f='yazi'
 alias rs='rustc'
 alias vim='nvim'
 alias cat='bat'
@@ -29,6 +29,8 @@ alias du='dust'
 alias fd='fd -uuu'
 alias t='touch'
 alias gallery-dl='gallery-dl -o skip=true'
+alias dku='docker-compose up --build -d'
+alias dkd='docker-compose down -v'
 
 # Display Random gifs
 #kitten icat --align left $(find $HOME/.config/neofetch/gifs/ -name "*.gif" | sort -R | head
@@ -52,3 +54,11 @@ cdx() {
     fi
 }
 
+function f() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		builtin cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
