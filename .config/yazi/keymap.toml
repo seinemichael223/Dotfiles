@@ -157,6 +157,9 @@ keymap = [
 ]
 prepend_keymap = [
 	{ on = "<C-y>", run = 'plugin wl-clipboard', desc = "wl-clipboard" },
+    { on = "<C-d>", run = 'plugin diff', desc = "Diff the selected with the hovered file"},
+    { on = "C", run = 'plugin ouch --args=zip', desc = "Compress to .zip with ouch"},
+
 ]
 
 [tasks]
@@ -362,3 +365,4 @@ keymap = [
 	# Filtering
 	{ on = "f", run = "filter", desc = "Apply a filter for the help items" },
 ]
+

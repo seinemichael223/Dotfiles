@@ -1,5 +1,14 @@
-[plugin]
-deps = [{ use = "grappas/wl-clipboard", rev = "c4edc4f" }]
+[[plugin.deps]]
+use = "grappas/wl-clipboard"
+rev = "c4edc4f"
+hash = "51ff959c3c26cb3889589a0f8d394f14"
 
-[flavor]
-deps = [{ use = "yazi-rs/flavors:catppuccin-frappe", rev = "1a419b2" }]
+[[plugin.deps]]
+use = "yazi-rs/plugins:diff"
+rev = "2730199"
+hash = "7a08e303167d5b655c06da6d570f0333"
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:catppuccin-frappe"
+rev = "1a419b2"
+hash = "e88895e8f8b7926f20946f273ecc7348"

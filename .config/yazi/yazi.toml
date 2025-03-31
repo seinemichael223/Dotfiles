@@ -9,6 +9,8 @@ play = [
 
 edit = [
 	{ run = 'nvim "$@"', block = true, for = "unix" },
+	{ run = 'bat "$@"', block = true, for = "unix" },
+
 ]
 
 open = [
@@ -20,16 +22,37 @@ pdff = [
     { run = 'zathura "$@"', desc = "zathura", orphan = true, for = "unix" },
 ]
 
+extract = [
+	{ run = 'ouch d -y "$@"', desc = "Extract here with ouch", for = "unix" },
+]
+
+
+
 [open]
 rules = [
-    { name = "*/", use = [ "edit", "open", "reveal" ] },
-    { mime = "text/*", use = [ "edit", "reveal" ] },
-    { mime = "application/pdf", use = [ "pdff", "reveal" ] },
-    { mime = "{audio,video}/*", use = [ "play", "reveal" ] },
-    { mime = "image/*", use = [ "open", "reveal" ] },
-    { mime = "application/{,g}zip", use = [ "extract", "reveal" ] },
+    { name = "*/", use = [ "edit", "open" ] },
+    { name = "*.json", use = [ "edit" ] },
+    { name = "*.txt", use = [ "edit" ] },
+    # { name = "*", use = [ "edit" ] },
+    { name = "*.pdf", use = [ "pdff" ] },
+    { mime = "text/*", use = [ "edit" ] },
+    { mime = "application/pdf", use = [ "pdff" ] },
+    { mime = "{audio,video}/*", use = [ "play" ] },
+    { mime = "image/*", use = [ "open" ] },
+    { mime = "application/{,g}zip", use = [ "extract" ] },
 ]
 
 [confirm]
 trash = false
 delete = true
+
+[plugin]
+prepend_previewers = [
+	# Archive previewer
+	{ mime = "application/*zip",            run = "ouch" },
+	{ mime = "application/x-tar",           run = "ouch" },
+	{ mime = "application/x-bzip2",         run = "ouch" },
+	{ mime = "application/x-7z-compressed", run = "ouch" },
+	{ mime = "application/x-rar",           run = "ouch" },
+	{ mime = "application/x-xz",            run = "ouch" },
+]

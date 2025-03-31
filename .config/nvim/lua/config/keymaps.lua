@@ -3,3 +3,4 @@
 -- Add any additional keymaps here
 
 vim.keymap.set("n", "S", ":%s//gI<Left><Left><Left>")
+vim.keymap.set("n", "<leader>cj", ":%!jq .<CR>", { noremap = true, silent = true, desc = "Format JSON with jq" })
