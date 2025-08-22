@@ -1,0 +1,10 @@
+# GopherTube Configuration File
+# Copy this file to ~/.config/gophertube/gophertube.toml and customize as needed
+
+# Number of search results to fetch
+# Default: 30 (lower it to increase speed)
+search_limit = 18 
+# Default video quality (e.g. 1080p, 720p, 480p, 360p)
+quality = "720p" 
+# Path to save downloaded videos (e.g. /home/user/Videos/GopherTube)
+downloads_path = "/home/$USER/Videos/GopherTube" 
