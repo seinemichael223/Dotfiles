@@ -1,45 +1,53 @@
-[manager]
+[mgr]
 show_hidden = true
 sort_by = "natural"
 
 [opener]
+# Custom openers to add to defaults
 play = [
     { run = 'mpv "$@"', orphan = true, for = "unix" },
 ]
 
-edit = [
-	{ run = 'nvim "$@"', block = true, for = "unix" },
-	{ run = 'bat "$@"', block = true, for = "unix" },
-
+pdf = [
+    { run = 'zathura "$@"', desc = "Zathura", orphan = true, for = "unix" },
 ]
 
-open = [
-	{ run = 'xdg-open "$@"', desc = "Open" },
-	{ run = 'gwenview "$@"', desc = "Gwenview" },
-]
-
-pdff = [
-    { run = 'zathura "$@"', desc = "zathura", orphan = true, for = "unix" },
+office = [
+    { run = 'libreoffice "$@"', orphan = true, for = "unix" },
 ]
 
 extract = [
-	{ run = 'ouch d -y "$@"', desc = "Extract here with ouch", for = "unix" },
+    { run = 'ouch d -y "$@"', desc = "Extract here", for = "unix" },
 ]
 
-
+# Default fallback opener for files without extensions or unknown types
+default = [
+    { run = 'nvim "$@"', block = true, for = "unix" },
+]
 
 [open]
-rules = [
-    { name = "*/", use = [ "edit", "open" ] },
-    { name = "*.json", use = [ "edit" ] },
-    { name = "*.txt", use = [ "edit" ] },
-    # { name = "*", use = [ "edit" ] },
-    { name = "*.pdf", use = [ "pdff" ] },
-    { mime = "text/*", use = [ "edit" ] },
-    { mime = "application/pdf", use = [ "pdff" ] },
-    { mime = "{audio,video}/*", use = [ "play" ] },
-    { mime = "image/*", use = [ "open" ] },
-    { mime = "application/{,g}zip", use = [ "extract" ] },
+# Prepend custom rules to the default rules
+prepend_rules = [
+    # Programming files - prefer nvim over default text editor
+    { name = "*.{py,rs,c,cpp,h,hpp,js,ts,html,css,sh,bash,zsh,lua,go,java,kt}", use = ["edit"] },
+    
+    # Configuration files - prefer nvim
+    { name = "*.{json,yaml,yml,toml,xml,cfg,conf,ini,md,txt,log}", use = ["edit"] },
+    
+    # Office documents
+    { name = "*.{docx,pptx,xlsx,odt,ods,odp}", use = ["office"] },
+    
+    # PDFs with custom viewer
+    { name = "*.pdf", use = ["pdf"] },
+    
+    # Archives with custom extractor
+    { name = "*.{zip,tar,gz,bz2,xz,7z,rar}", use = ["extract"] },
+]
+
+# Append fallback rule after all default rules
+append_rules = [
+    # Fallback for files without extensions or unknown types
+    { name = "*", use = ["default"] },
 ]
 
 [confirm]
@@ -48,11 +56,11 @@ delete = true
 
 [plugin]
 prepend_previewers = [
-	# Archive previewer
-	{ mime = "application/*zip",            run = "ouch" },
-	{ mime = "application/x-tar",           run = "ouch" },
-	{ mime = "application/x-bzip2",         run = "ouch" },
-	{ mime = "application/x-7z-compressed", run = "ouch" },
-	{ mime = "application/x-rar",           run = "ouch" },
-	{ mime = "application/x-xz",            run = "ouch" },
+    # Archive previewers
+    { mime = "application/*zip", run = "ouch" },
+    { mime = "application/x-tar", run = "ouch" },
+    { mime = "application/x-bzip2", run = "ouch" },
+    { mime = "application/x-7z-compressed", run = "ouch" },
+    { mime = "application/x-rar", run = "ouch" },
+    { mime = "application/x-xz", run = "ouch" },
 ]
